@@ -1,78 +1,88 @@
-*{
-  font-family: Helvetica, Arial, sans-serif;
+.navBot{
+    margin-right: 15px;
+    position: relative;
+    top:12px;
+}
+.pokeImage{
+    width: 100%;
+    padding: 10px;
+    max-height: 300px;
+    position:relative;
+    top:30px;
 
+}
+.cardContainer{
+    background-color: rgb(62, 64, 70);
+    padding:0 20px 10px 10px;
+    border-radius: 10px;
+    color:white;
+    overflow: hidden;
+    border: 10px solid rgb(96, 99, 107);
+}
+.imagenContainter{
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    min-height: 350px;
+    margin-right: 10px;
+}
+.loading{
+    width: 70px;
+    margin: 0 auto;
+}
+.datosContainer{
+    background-color: rgb(96, 99, 107);
+    border-radius: 20px;  
+    margin-bottom: 15px;
 }
 body{
-  padding:20px;
-  background-color:rgb(32, 32, 37);
+    background-color: rgb(30, 31, 34);
+    color:white;
 }
-
-.botonTiempo{
-  margin-top: 20px;
-}
-.tarjeta{
-  background-color: rgb(46, 46, 54);
-  padding:15px;
-  color:white;
-  margin: 0 0 15px 0;
- 
-}
-.tarjeta h3{
-  font-size: 1.3rem;
-
-}
-.separador{
-  height: 15px;
-  background-color: white;
-  border: none;
-}
-.listaTiempo{
-  background-color:rgb(63, 63, 73) ;
-  color: white;
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-}
-.cabeceraTarjetaContainer{
-  position: relative;
-  bottom:10px;
-}
-
-.cabeceraTarjeta{
-  display: inline-block;
-}
-.iconoTiempo{
-  position: relative;
-  bottom:4px
-}
-.tituloTarjeta{
-  margin-right: 10px;
-}
-ol{
-  margin:0;
-  padding: 0;
-  overflow: hidden;
-}
-h1{color: white;}
 .logo{
-  max-width: 50px;
-  position: relative;
-  bottom:10px;
+    width: 100%;
+    max-width: 30px;margin-right: 10px;
+    position: relative;
+    bottom: 8px;;
 }
-#map{
-  width: 100%;
+.cabecera{
+    display: inline;
 }
-.resaltado{
-  font-weight: bold;
-  color: lightblue;
-  font-size: 1rem;
+
+.clase{
+    margin-left: 10px;
+    background-color: rgb(96, 99, 107);
+    padding:10px;
+    position:relative;
+    top:19px;
 }
-.errorCiudad{
-  border: 1px solid red;
+.estadisticasCont{
+    background-color: rgb(62, 64, 70);
+    padding: 10px;
+    border-radius: 15px;
+    margin-top:20px;
+    margin-bottom: 20px;
 }
-.iconoSvg{
-  fill: white;
-  padding: 5px;
+.headCont{
+    overflow: hidden;
 }
-.cab{
-  cursor: pointer;
+.listado-item {
+    
+   padding:10px ;
+   border: 10px solid rgb(30, 31, 34);
+   background-color: rgb(62, 64, 70);;
+   color: white;
+    
+}
+.listado-item:hover, .listado-item button:hover{
+    background-color: rgb(96, 99, 107);
+}
+.botonNavegacionLista{
+    width: 49%;
+    margin:20px 5px 20px 5px;
+
+}
+.navegacionListaCont{
+    margin:0 auto;
 }

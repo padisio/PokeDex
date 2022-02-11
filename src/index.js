@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { GridApp } from './components/GridApp';
+
 import './index.css';
-import QuickWeatherApp from './QuickWeatherApp';
 
 ReactDOM.render(
 
-  <QuickWeatherApp />
+  <>
+  <GridApp /> 
+  </>
   ,
   document.getElementById('root')
 );
